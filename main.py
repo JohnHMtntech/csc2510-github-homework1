@@ -8,7 +8,6 @@ import urllib.request
 def fightClub(): 
     print("Guys, we're supposed to talk about this. ")
 
-#Code borrowed from Sibo on Github
 def updateProgressBarJohnMiller(percent):
   bar_length = 25  # should be less than 100
   print('\r', end="", flush=True)
@@ -26,7 +25,7 @@ def funcJohnHMiller():
 
       updateProgressBarJohnMiller(100.0*currentLine/total)
       currentLine = currentLine + 1
-      
+
       time.sleep(0.002)
     updateProgressBarJohnMiller(100.0)
   print("\nScript sucessfully downloaded")
